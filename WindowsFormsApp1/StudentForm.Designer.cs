@@ -47,7 +47,7 @@
             this.lbl_grade3 = new System.Windows.Forms.Label();
             this.tb_grade2 = new System.Windows.Forms.TextBox();
             this.lbl_grade2 = new System.Windows.Forms.Label();
-            this.grade1tb = new System.Windows.Forms.TextBox();
+            this.tb_grade1 = new System.Windows.Forms.TextBox();
             this.lbl_grade1 = new System.Windows.Forms.Label();
             this.btn_addStudent = new System.Windows.Forms.Button();
             this.btn_add10k = new System.Windows.Forms.Button();
@@ -218,13 +218,13 @@
             this.lbl_grade2.TabIndex = 12;
             this.lbl_grade2.Text = "Grade #2:";
             // 
-            // grade1tb
+            // tb_grade1
             // 
-            this.grade1tb.Location = new System.Drawing.Point(234, 60);
-            this.grade1tb.Margin = new System.Windows.Forms.Padding(2);
-            this.grade1tb.Name = "grade1tb";
-            this.grade1tb.Size = new System.Drawing.Size(126, 20);
-            this.grade1tb.TabIndex = 11;
+            this.tb_grade1.Location = new System.Drawing.Point(234, 60);
+            this.tb_grade1.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_grade1.Name = "tb_grade1";
+            this.tb_grade1.Size = new System.Drawing.Size(126, 20);
+            this.tb_grade1.TabIndex = 11;
             // 
             // lbl_grade1
             // 
@@ -299,7 +299,7 @@
             this.Controls.Add(this.lbl_grade3);
             this.Controls.Add(this.tb_grade2);
             this.Controls.Add(this.lbl_grade2);
-            this.Controls.Add(this.grade1tb);
+            this.Controls.Add(this.tb_grade1);
             this.Controls.Add(this.lbl_grade1);
             this.Controls.Add(this.tb_phone);
             this.Controls.Add(this.lbl_phone);
@@ -341,7 +341,7 @@
         private System.Windows.Forms.Label lbl_grade3;
         private System.Windows.Forms.TextBox tb_grade2;
         private System.Windows.Forms.Label lbl_grade2;
-        private System.Windows.Forms.TextBox grade1tb;
+        private System.Windows.Forms.TextBox tb_grade1;
         private System.Windows.Forms.Label lbl_grade1;
         private System.Windows.Forms.Button btn_addStudent;
         private System.Windows.Forms.Button btn_add10k;

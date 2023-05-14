@@ -8,13 +8,13 @@ namespace TDD
 {
     public class Student
     {
-        private int ID { get; set; }
+        private string ID { get; set; }
         private string FirstName { get; set; }
         private string LastName { get; set; }
         private string Email { get; set; }
-        private int PhoneNumber { get; set; }
+        private string PhoneNumber { get; set; }
         public float Average { get; set;}
-        public Student(int ID, string firstName, string lastName, string email, int phoneNumber, int grade1, int grade2, int grade3, int grade4, int grade5)
+        public Student(string ID, string firstName, string lastName, string email, string phoneNumber, int grade1, int grade2, int grade3, int grade4, int grade5)
         {
             this.ID = ID;
             this.FirstName = firstName;
@@ -23,7 +23,7 @@ namespace TDD
             this.PhoneNumber = phoneNumber;
             int gradesSum = 0;
             int legalGrades = 0;
-            int[] grades = { grade1, grade2, grade3, grade4, grade5 };
+            int [] grades = { grade1, grade2, grade3, grade4, grade5 };
             for(int i = 0; i<5; i++)
             {
                 if (gradeIsLegal(grades[i]))
