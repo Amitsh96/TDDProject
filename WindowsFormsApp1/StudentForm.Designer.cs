@@ -313,7 +313,7 @@
             this.Controls.Add(this.lbl_id);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StudentForm";
-            this.Text = "Form1";
+            this.Text = "Student Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
