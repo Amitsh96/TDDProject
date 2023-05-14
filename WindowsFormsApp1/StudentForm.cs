@@ -53,7 +53,7 @@ namespace TDD
             tb_grade3.Text = "";
             tb_grade4.Text = "";
             tb_grade5.Text = "";
-
+           
         }
         private void btn_add10k_Click(object sender, EventArgs e)
         {
@@ -63,7 +63,23 @@ namespace TDD
         {
             // Student form will open report form when clicked
             ReportForm rp = new ReportForm();
+           
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("ID",typeof(string));
+            dt.Columns.Add("First Name", typeof(string));
+            dt.Columns.Add("Last Name",typeof(string));
+            dt.Columns.Add("GPA",typeof(float));
+
+            for (int i = 0; i < studentList.Count; i++) {
+                dt.Rows.Add(studentList[i].ID, studentList[i].FirstName, studentList[i].LastName, studentList[i].Average);
+            }
+
+            rp.dataGridView1.DataSource = dt;
             rp.ShowDialog();
+
+          
+
         }
     }
 }

@@ -8,11 +8,11 @@ namespace TDD
 {
     public class Student
     {
-        private string ID { get; set; }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private string Email { get; set; }
-        private string PhoneNumber { get; set; }
+        public string ID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
         public float Average { get; set;}
         public Student(string ID, string firstName, string lastName, string email, string phoneNumber, int grade1, int grade2, int grade3, int grade4, int grade5)
         {
