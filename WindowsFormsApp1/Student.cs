@@ -24,7 +24,7 @@ namespace TDD
             int gradesSum = 0;
             int legalGrades = 0;
             int[] grades = { grade1, grade2, grade3, grade4, grade5 };
-            for(int i = 0; i<=4; i++)
+            for(int i = 0; i<5; i++)
             {
                 if (gradeIsLegal(grades[i]))
                 {
