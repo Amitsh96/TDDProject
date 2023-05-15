@@ -15,23 +15,19 @@ namespace TDD
         public StudentForm()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
+        }       
+        private void StudentForm_Load(object sender, EventArgs e)
         {
 
         }
-
         private void btn_addStudent_Click(object sender, EventArgs e)
         {
 
         }
-
         private void btn_add10k_Click(object sender, EventArgs e)
         {
 
         }
-
         private void btn_report_Click(object sender, EventArgs e)
         {
 

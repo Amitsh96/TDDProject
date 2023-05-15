@@ -51,8 +51,8 @@
             this.lbl_grade1 = new System.Windows.Forms.Label();
             this.btn_addStudent = new System.Windows.Forms.Button();
             this.btn_add10k = new System.Windows.Forms.Button();
-            this.btn_report = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_report = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -258,17 +258,6 @@
             this.btn_add10k.UseVisualStyleBackColor = true;
             this.btn_add10k.Click += new System.EventHandler(this.btn_add10k_Click);
             // 
-            // btn_report
-            // 
-            this.btn_report.Location = new System.Drawing.Point(550, 361);
-            this.btn_report.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_report.Name = "btn_report";
-            this.btn_report.Size = new System.Drawing.Size(107, 50);
-            this.btn_report.TabIndex = 22;
-            this.btn_report.Text = "Generate students report";
-            this.btn_report.UseVisualStyleBackColor = true;
-            this.btn_report.Click += new System.EventHandler(this.btn_report_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -280,6 +269,17 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
+            // 
+            // btn_report
+            // 
+            this.btn_report.Location = new System.Drawing.Point(550, 361);
+            this.btn_report.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_report.Name = "btn_report";
+            this.btn_report.Size = new System.Drawing.Size(107, 50);
+            this.btn_report.TabIndex = 22;
+            this.btn_report.Text = "Generate students report";
+            this.btn_report.UseVisualStyleBackColor = true;
+            this.btn_report.Click += new System.EventHandler(this.btn_report_Click);
             // 
             // StudentForm
             // 
@@ -313,8 +313,8 @@
             this.Controls.Add(this.lbl_id);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StudentForm";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Student Form";
+            this.Load += new System.EventHandler(this.StudentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -345,8 +345,8 @@
         private System.Windows.Forms.Label lbl_grade1;
         private System.Windows.Forms.Button btn_addStudent;
         private System.Windows.Forms.Button btn_add10k;
-        private System.Windows.Forms.Button btn_report;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_report;
     }
 }
 
