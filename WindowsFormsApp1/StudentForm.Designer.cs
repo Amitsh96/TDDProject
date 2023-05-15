@@ -238,7 +238,7 @@
             // 
             // btn_addStudent
             // 
-            this.btn_addStudent.Location = new System.Drawing.Point(327, 361);
+            this.btn_addStudent.Location = new System.Drawing.Point(360, 363);
             this.btn_addStudent.Margin = new System.Windows.Forms.Padding(2);
             this.btn_addStudent.Name = "btn_addStudent";
             this.btn_addStudent.Size = new System.Drawing.Size(107, 50);
@@ -249,7 +249,7 @@
             // 
             // btn_add10k
             // 
-            this.btn_add10k.Location = new System.Drawing.Point(439, 361);
+            this.btn_add10k.Location = new System.Drawing.Point(472, 363);
             this.btn_add10k.Margin = new System.Windows.Forms.Padding(2);
             this.btn_add10k.Name = "btn_add10k";
             this.btn_add10k.Size = new System.Drawing.Size(107, 50);
@@ -262,7 +262,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(506, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(540, 36);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
@@ -272,7 +272,7 @@
             // 
             // btn_report
             // 
-            this.btn_report.Location = new System.Drawing.Point(550, 361);
+            this.btn_report.Location = new System.Drawing.Point(583, 363);
             this.btn_report.Margin = new System.Windows.Forms.Padding(2);
             this.btn_report.Name = "btn_report";
             this.btn_report.Size = new System.Drawing.Size(107, 50);
@@ -286,7 +286,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(667, 420);
+            this.ClientSize = new System.Drawing.Size(721, 436);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_report);
             this.Controls.Add(this.btn_add10k);

@@ -32,7 +32,7 @@ namespace TDD
                     legalGrades++;
                 }
             }
-            this.Average = gradesSum/legalGrades;
+            this.Average = (float)gradesSum/legalGrades;
         }
         public Boolean gradeIsLegal(int grade)
         {

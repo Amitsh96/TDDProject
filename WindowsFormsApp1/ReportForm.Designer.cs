@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lbl_runTime = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -37,7 +38,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(132, 28);
+            this.label1.Location = new System.Drawing.Point(101, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(504, 31);
             this.label1.TabIndex = 0;
@@ -47,16 +48,27 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 76);
+            this.dataGridView1.Location = new System.Drawing.Point(24, 87);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 362);
+            this.dataGridView1.Size = new System.Drawing.Size(688, 354);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // lbl_runTime
+            // 
+            this.lbl_runTime.AutoSize = true;
+            this.lbl_runTime.Location = new System.Drawing.Point(316, 66);
+            this.lbl_runTime.Name = "lbl_runTime";
+            this.lbl_runTime.Size = new System.Drawing.Size(79, 13);
+            this.lbl_runTime.TabIndex = 2;
+            this.lbl_runTime.Text = "Total Runtime: ";
             // 
             // ReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(735, 453);
+            this.Controls.Add(this.lbl_runTime);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "ReportForm";
@@ -75,5 +87,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.Label lbl_runTime;
     }
 }
