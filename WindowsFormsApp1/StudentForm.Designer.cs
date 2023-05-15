@@ -29,194 +29,194 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentForm));
-            this.idlbl = new System.Windows.Forms.Label();
-            this.IDtb = new System.Windows.Forms.TextBox();
-            this.firstnametb = new System.Windows.Forms.TextBox();
-            this.firstnamelbl = new System.Windows.Forms.Label();
-            this.lastnametb = new System.Windows.Forms.TextBox();
-            this.lastnamelbl = new System.Windows.Forms.Label();
-            this.emailtb = new System.Windows.Forms.TextBox();
-            this.emaillbl = new System.Windows.Forms.Label();
-            this.phonetb = new System.Windows.Forms.TextBox();
-            this.phonelbl = new System.Windows.Forms.Label();
-            this.grade5tb = new System.Windows.Forms.TextBox();
-            this.grade5lbl = new System.Windows.Forms.Label();
-            this.grade4tb = new System.Windows.Forms.TextBox();
-            this.grade4lbl = new System.Windows.Forms.Label();
-            this.grade3tb = new System.Windows.Forms.TextBox();
-            this.grade3lbl = new System.Windows.Forms.Label();
-            this.grade2tb = new System.Windows.Forms.TextBox();
-            this.grade2lbl = new System.Windows.Forms.Label();
+            this.lbl_id = new System.Windows.Forms.Label();
+            this.tb_id = new System.Windows.Forms.TextBox();
+            this.tb_firstname = new System.Windows.Forms.TextBox();
+            this.lbl_firstname = new System.Windows.Forms.Label();
+            this.tb_lastname = new System.Windows.Forms.TextBox();
+            this.lbl_lastname = new System.Windows.Forms.Label();
+            this.tb_email = new System.Windows.Forms.TextBox();
+            this.lbl_email = new System.Windows.Forms.Label();
+            this.tb_phone = new System.Windows.Forms.TextBox();
+            this.lbl_phone = new System.Windows.Forms.Label();
+            this.tb_grade5 = new System.Windows.Forms.TextBox();
+            this.lbl_grade5 = new System.Windows.Forms.Label();
+            this.tb_grade4 = new System.Windows.Forms.TextBox();
+            this.lbl_grade4 = new System.Windows.Forms.Label();
+            this.tb_grade3 = new System.Windows.Forms.TextBox();
+            this.lbl_grade3 = new System.Windows.Forms.Label();
+            this.tb_grade2 = new System.Windows.Forms.TextBox();
+            this.lbl_grade2 = new System.Windows.Forms.Label();
             this.grade1tb = new System.Windows.Forms.TextBox();
-            this.grade1lbl = new System.Windows.Forms.Label();
-            this.addStudentBtn = new System.Windows.Forms.Button();
-            this.add10kBtn = new System.Windows.Forms.Button();
-            this.reportBtn = new System.Windows.Forms.Button();
+            this.lbl_grade1 = new System.Windows.Forms.Label();
+            this.btn_addStudent = new System.Windows.Forms.Button();
+            this.btn_add10k = new System.Windows.Forms.Button();
+            this.btn_report = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // idlbl
+            // lbl_id
             // 
-            this.idlbl.AutoSize = true;
-            this.idlbl.Location = new System.Drawing.Point(46, 36);
-            this.idlbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.idlbl.Name = "idlbl";
-            this.idlbl.Size = new System.Drawing.Size(21, 13);
-            this.idlbl.TabIndex = 0;
-            this.idlbl.Text = "ID:";
+            this.lbl_id.AutoSize = true;
+            this.lbl_id.Location = new System.Drawing.Point(46, 36);
+            this.lbl_id.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_id.Name = "lbl_id";
+            this.lbl_id.Size = new System.Drawing.Size(21, 13);
+            this.lbl_id.TabIndex = 0;
+            this.lbl_id.Text = "ID:";
             // 
-            // IDtb
+            // tb_id
             // 
-            this.IDtb.Location = new System.Drawing.Point(48, 60);
-            this.IDtb.Margin = new System.Windows.Forms.Padding(2);
-            this.IDtb.Name = "IDtb";
-            this.IDtb.Size = new System.Drawing.Size(126, 20);
-            this.IDtb.TabIndex = 1;
+            this.tb_id.Location = new System.Drawing.Point(48, 60);
+            this.tb_id.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_id.Name = "tb_id";
+            this.tb_id.Size = new System.Drawing.Size(126, 20);
+            this.tb_id.TabIndex = 1;
             // 
-            // firstnametb
+            // tb_firstname
             // 
-            this.firstnametb.Location = new System.Drawing.Point(48, 119);
-            this.firstnametb.Margin = new System.Windows.Forms.Padding(2);
-            this.firstnametb.Name = "firstnametb";
-            this.firstnametb.Size = new System.Drawing.Size(126, 20);
-            this.firstnametb.TabIndex = 3;
+            this.tb_firstname.Location = new System.Drawing.Point(48, 119);
+            this.tb_firstname.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_firstname.Name = "tb_firstname";
+            this.tb_firstname.Size = new System.Drawing.Size(126, 20);
+            this.tb_firstname.TabIndex = 3;
             // 
-            // firstnamelbl
+            // lbl_firstname
             // 
-            this.firstnamelbl.AutoSize = true;
-            this.firstnamelbl.Location = new System.Drawing.Point(46, 89);
-            this.firstnamelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.firstnamelbl.Name = "firstnamelbl";
-            this.firstnamelbl.Size = new System.Drawing.Size(60, 13);
-            this.firstnamelbl.TabIndex = 2;
-            this.firstnamelbl.Text = "First Name:";
+            this.lbl_firstname.AutoSize = true;
+            this.lbl_firstname.Location = new System.Drawing.Point(46, 89);
+            this.lbl_firstname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_firstname.Name = "lbl_firstname";
+            this.lbl_firstname.Size = new System.Drawing.Size(60, 13);
+            this.lbl_firstname.TabIndex = 2;
+            this.lbl_firstname.Text = "First Name:";
             // 
-            // lastnametb
+            // tb_lastname
             // 
-            this.lastnametb.Location = new System.Drawing.Point(48, 178);
-            this.lastnametb.Margin = new System.Windows.Forms.Padding(2);
-            this.lastnametb.Name = "lastnametb";
-            this.lastnametb.Size = new System.Drawing.Size(126, 20);
-            this.lastnametb.TabIndex = 5;
+            this.tb_lastname.Location = new System.Drawing.Point(48, 178);
+            this.tb_lastname.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_lastname.Name = "tb_lastname";
+            this.tb_lastname.Size = new System.Drawing.Size(126, 20);
+            this.tb_lastname.TabIndex = 5;
             // 
-            // lastnamelbl
+            // lbl_lastname
             // 
-            this.lastnamelbl.AutoSize = true;
-            this.lastnamelbl.Location = new System.Drawing.Point(46, 154);
-            this.lastnamelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lastnamelbl.Name = "lastnamelbl";
-            this.lastnamelbl.Size = new System.Drawing.Size(61, 13);
-            this.lastnamelbl.TabIndex = 4;
-            this.lastnamelbl.Text = "Last Name:";
+            this.lbl_lastname.AutoSize = true;
+            this.lbl_lastname.Location = new System.Drawing.Point(46, 154);
+            this.lbl_lastname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_lastname.Name = "lbl_lastname";
+            this.lbl_lastname.Size = new System.Drawing.Size(61, 13);
+            this.lbl_lastname.TabIndex = 4;
+            this.lbl_lastname.Text = "Last Name:";
             // 
-            // emailtb
+            // tb_email
             // 
-            this.emailtb.Location = new System.Drawing.Point(48, 242);
-            this.emailtb.Margin = new System.Windows.Forms.Padding(2);
-            this.emailtb.Name = "emailtb";
-            this.emailtb.Size = new System.Drawing.Size(126, 20);
-            this.emailtb.TabIndex = 7;
+            this.tb_email.Location = new System.Drawing.Point(48, 242);
+            this.tb_email.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_email.Name = "tb_email";
+            this.tb_email.Size = new System.Drawing.Size(126, 20);
+            this.tb_email.TabIndex = 7;
             // 
-            // emaillbl
+            // lbl_email
             // 
-            this.emaillbl.AutoSize = true;
-            this.emaillbl.Location = new System.Drawing.Point(46, 218);
-            this.emaillbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.emaillbl.Name = "emaillbl";
-            this.emaillbl.Size = new System.Drawing.Size(35, 13);
-            this.emaillbl.TabIndex = 6;
-            this.emaillbl.Text = "Email:";
+            this.lbl_email.AutoSize = true;
+            this.lbl_email.Location = new System.Drawing.Point(46, 218);
+            this.lbl_email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_email.Name = "lbl_email";
+            this.lbl_email.Size = new System.Drawing.Size(35, 13);
+            this.lbl_email.TabIndex = 6;
+            this.lbl_email.Text = "Email:";
             // 
-            // phonetb
+            // tb_phone
             // 
-            this.phonetb.Location = new System.Drawing.Point(48, 306);
-            this.phonetb.Margin = new System.Windows.Forms.Padding(2);
-            this.phonetb.Name = "phonetb";
-            this.phonetb.Size = new System.Drawing.Size(126, 20);
-            this.phonetb.TabIndex = 9;
+            this.tb_phone.Location = new System.Drawing.Point(48, 306);
+            this.tb_phone.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_phone.Name = "tb_phone";
+            this.tb_phone.Size = new System.Drawing.Size(126, 20);
+            this.tb_phone.TabIndex = 9;
             // 
-            // phonelbl
+            // lbl_phone
             // 
-            this.phonelbl.AutoSize = true;
-            this.phonelbl.Location = new System.Drawing.Point(46, 282);
-            this.phonelbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.phonelbl.Name = "phonelbl";
-            this.phonelbl.Size = new System.Drawing.Size(81, 13);
-            this.phonelbl.TabIndex = 8;
-            this.phonelbl.Text = "Phone Number:";
+            this.lbl_phone.AutoSize = true;
+            this.lbl_phone.Location = new System.Drawing.Point(46, 282);
+            this.lbl_phone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_phone.Name = "lbl_phone";
+            this.lbl_phone.Size = new System.Drawing.Size(81, 13);
+            this.lbl_phone.TabIndex = 8;
+            this.lbl_phone.Text = "Phone Number:";
             // 
-            // grade5tb
+            // tb_grade5
             // 
-            this.grade5tb.Location = new System.Drawing.Point(234, 306);
-            this.grade5tb.Margin = new System.Windows.Forms.Padding(2);
-            this.grade5tb.Name = "grade5tb";
-            this.grade5tb.Size = new System.Drawing.Size(126, 20);
-            this.grade5tb.TabIndex = 19;
+            this.tb_grade5.Location = new System.Drawing.Point(234, 306);
+            this.tb_grade5.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_grade5.Name = "tb_grade5";
+            this.tb_grade5.Size = new System.Drawing.Size(126, 20);
+            this.tb_grade5.TabIndex = 19;
             // 
-            // grade5lbl
+            // lbl_grade5
             // 
-            this.grade5lbl.AutoSize = true;
-            this.grade5lbl.Location = new System.Drawing.Point(232, 282);
-            this.grade5lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.grade5lbl.Name = "grade5lbl";
-            this.grade5lbl.Size = new System.Drawing.Size(55, 13);
-            this.grade5lbl.TabIndex = 18;
-            this.grade5lbl.Text = "Grade #5:";
+            this.lbl_grade5.AutoSize = true;
+            this.lbl_grade5.Location = new System.Drawing.Point(232, 282);
+            this.lbl_grade5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_grade5.Name = "lbl_grade5";
+            this.lbl_grade5.Size = new System.Drawing.Size(55, 13);
+            this.lbl_grade5.TabIndex = 18;
+            this.lbl_grade5.Text = "Grade #5:";
             // 
-            // grade4tb
+            // tb_grade4
             // 
-            this.grade4tb.Location = new System.Drawing.Point(234, 242);
-            this.grade4tb.Margin = new System.Windows.Forms.Padding(2);
-            this.grade4tb.Name = "grade4tb";
-            this.grade4tb.Size = new System.Drawing.Size(126, 20);
-            this.grade4tb.TabIndex = 17;
+            this.tb_grade4.Location = new System.Drawing.Point(234, 242);
+            this.tb_grade4.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_grade4.Name = "tb_grade4";
+            this.tb_grade4.Size = new System.Drawing.Size(126, 20);
+            this.tb_grade4.TabIndex = 17;
             // 
-            // grade4lbl
+            // lbl_grade4
             // 
-            this.grade4lbl.AutoSize = true;
-            this.grade4lbl.Location = new System.Drawing.Point(232, 218);
-            this.grade4lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.grade4lbl.Name = "grade4lbl";
-            this.grade4lbl.Size = new System.Drawing.Size(55, 13);
-            this.grade4lbl.TabIndex = 16;
-            this.grade4lbl.Text = "Grade #4:";
+            this.lbl_grade4.AutoSize = true;
+            this.lbl_grade4.Location = new System.Drawing.Point(232, 218);
+            this.lbl_grade4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_grade4.Name = "lbl_grade4";
+            this.lbl_grade4.Size = new System.Drawing.Size(55, 13);
+            this.lbl_grade4.TabIndex = 16;
+            this.lbl_grade4.Text = "Grade #4:";
             // 
-            // grade3tb
+            // tb_grade3
             // 
-            this.grade3tb.Location = new System.Drawing.Point(234, 178);
-            this.grade3tb.Margin = new System.Windows.Forms.Padding(2);
-            this.grade3tb.Name = "grade3tb";
-            this.grade3tb.Size = new System.Drawing.Size(126, 20);
-            this.grade3tb.TabIndex = 15;
+            this.tb_grade3.Location = new System.Drawing.Point(234, 178);
+            this.tb_grade3.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_grade3.Name = "tb_grade3";
+            this.tb_grade3.Size = new System.Drawing.Size(126, 20);
+            this.tb_grade3.TabIndex = 15;
             // 
-            // grade3lbl
+            // lbl_grade3
             // 
-            this.grade3lbl.AutoSize = true;
-            this.grade3lbl.Location = new System.Drawing.Point(232, 154);
-            this.grade3lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.grade3lbl.Name = "grade3lbl";
-            this.grade3lbl.Size = new System.Drawing.Size(55, 13);
-            this.grade3lbl.TabIndex = 14;
-            this.grade3lbl.Text = "Grade #3:";
+            this.lbl_grade3.AutoSize = true;
+            this.lbl_grade3.Location = new System.Drawing.Point(232, 154);
+            this.lbl_grade3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_grade3.Name = "lbl_grade3";
+            this.lbl_grade3.Size = new System.Drawing.Size(55, 13);
+            this.lbl_grade3.TabIndex = 14;
+            this.lbl_grade3.Text = "Grade #3:";
             // 
-            // grade2tb
+            // tb_grade2
             // 
-            this.grade2tb.Location = new System.Drawing.Point(234, 119);
-            this.grade2tb.Margin = new System.Windows.Forms.Padding(2);
-            this.grade2tb.Name = "grade2tb";
-            this.grade2tb.Size = new System.Drawing.Size(126, 20);
-            this.grade2tb.TabIndex = 13;
+            this.tb_grade2.Location = new System.Drawing.Point(234, 119);
+            this.tb_grade2.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_grade2.Name = "tb_grade2";
+            this.tb_grade2.Size = new System.Drawing.Size(126, 20);
+            this.tb_grade2.TabIndex = 13;
             // 
-            // grade2lbl
+            // lbl_grade2
             // 
-            this.grade2lbl.AutoSize = true;
-            this.grade2lbl.Location = new System.Drawing.Point(232, 89);
-            this.grade2lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.grade2lbl.Name = "grade2lbl";
-            this.grade2lbl.Size = new System.Drawing.Size(55, 13);
-            this.grade2lbl.TabIndex = 12;
-            this.grade2lbl.Text = "Grade #2:";
+            this.lbl_grade2.AutoSize = true;
+            this.lbl_grade2.Location = new System.Drawing.Point(232, 89);
+            this.lbl_grade2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_grade2.Name = "lbl_grade2";
+            this.lbl_grade2.Size = new System.Drawing.Size(55, 13);
+            this.lbl_grade2.TabIndex = 12;
+            this.lbl_grade2.Text = "Grade #2:";
             // 
             // grade1tb
             // 
@@ -226,48 +226,48 @@
             this.grade1tb.Size = new System.Drawing.Size(126, 20);
             this.grade1tb.TabIndex = 11;
             // 
-            // grade1lbl
+            // lbl_grade1
             // 
-            this.grade1lbl.AutoSize = true;
-            this.grade1lbl.Location = new System.Drawing.Point(232, 36);
-            this.grade1lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.grade1lbl.Name = "grade1lbl";
-            this.grade1lbl.Size = new System.Drawing.Size(55, 13);
-            this.grade1lbl.TabIndex = 10;
-            this.grade1lbl.Text = "Grade #1:";
+            this.lbl_grade1.AutoSize = true;
+            this.lbl_grade1.Location = new System.Drawing.Point(232, 36);
+            this.lbl_grade1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_grade1.Name = "lbl_grade1";
+            this.lbl_grade1.Size = new System.Drawing.Size(55, 13);
+            this.lbl_grade1.TabIndex = 10;
+            this.lbl_grade1.Text = "Grade #1:";
             // 
-            // addStudentBtn
+            // btn_addStudent
             // 
-            this.addStudentBtn.Location = new System.Drawing.Point(327, 361);
-            this.addStudentBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.addStudentBtn.Name = "addStudentBtn";
-            this.addStudentBtn.Size = new System.Drawing.Size(107, 50);
-            this.addStudentBtn.TabIndex = 20;
-            this.addStudentBtn.Text = "Add Student";
-            this.addStudentBtn.UseVisualStyleBackColor = true;
-            this.addStudentBtn.Click += new System.EventHandler(this.addStudentBtn_Click);
+            this.btn_addStudent.Location = new System.Drawing.Point(327, 361);
+            this.btn_addStudent.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_addStudent.Name = "btn_addStudent";
+            this.btn_addStudent.Size = new System.Drawing.Size(107, 50);
+            this.btn_addStudent.TabIndex = 20;
+            this.btn_addStudent.Text = "Add Student";
+            this.btn_addStudent.UseVisualStyleBackColor = true;
+            this.btn_addStudent.Click += new System.EventHandler(this.btn_addStudent_Click);
             // 
-            // add10kBtn
+            // btn_add10k
             // 
-            this.add10kBtn.Location = new System.Drawing.Point(439, 361);
-            this.add10kBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.add10kBtn.Name = "add10kBtn";
-            this.add10kBtn.Size = new System.Drawing.Size(107, 50);
-            this.add10kBtn.TabIndex = 21;
-            this.add10kBtn.Text = "Add 10,000 students";
-            this.add10kBtn.UseVisualStyleBackColor = true;
-            this.add10kBtn.Click += new System.EventHandler(this.add10kBtn_Click);
+            this.btn_add10k.Location = new System.Drawing.Point(439, 361);
+            this.btn_add10k.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_add10k.Name = "btn_add10k";
+            this.btn_add10k.Size = new System.Drawing.Size(107, 50);
+            this.btn_add10k.TabIndex = 21;
+            this.btn_add10k.Text = "Add 10,000 students";
+            this.btn_add10k.UseVisualStyleBackColor = true;
+            this.btn_add10k.Click += new System.EventHandler(this.btn_add10k_Click);
             // 
-            // reportBtn
+            // btn_report
             // 
-            this.reportBtn.Location = new System.Drawing.Point(550, 361);
-            this.reportBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.reportBtn.Name = "reportBtn";
-            this.reportBtn.Size = new System.Drawing.Size(107, 50);
-            this.reportBtn.TabIndex = 22;
-            this.reportBtn.Text = "Generate students report";
-            this.reportBtn.UseVisualStyleBackColor = true;
-            this.reportBtn.Click += new System.EventHandler(this.reportBtn_Click);
+            this.btn_report.Location = new System.Drawing.Point(550, 361);
+            this.btn_report.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_report.Name = "btn_report";
+            this.btn_report.Size = new System.Drawing.Size(107, 50);
+            this.btn_report.TabIndex = 22;
+            this.btn_report.Text = "Generate students report";
+            this.btn_report.UseVisualStyleBackColor = true;
+            this.btn_report.Click += new System.EventHandler(this.btn_report_Click);
             // 
             // pictureBox1
             // 
@@ -288,29 +288,29 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(667, 420);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.reportBtn);
-            this.Controls.Add(this.add10kBtn);
-            this.Controls.Add(this.addStudentBtn);
-            this.Controls.Add(this.grade5tb);
-            this.Controls.Add(this.grade5lbl);
-            this.Controls.Add(this.grade4tb);
-            this.Controls.Add(this.grade4lbl);
-            this.Controls.Add(this.grade3tb);
-            this.Controls.Add(this.grade3lbl);
-            this.Controls.Add(this.grade2tb);
-            this.Controls.Add(this.grade2lbl);
+            this.Controls.Add(this.btn_report);
+            this.Controls.Add(this.btn_add10k);
+            this.Controls.Add(this.btn_addStudent);
+            this.Controls.Add(this.tb_grade5);
+            this.Controls.Add(this.lbl_grade5);
+            this.Controls.Add(this.tb_grade4);
+            this.Controls.Add(this.lbl_grade4);
+            this.Controls.Add(this.tb_grade3);
+            this.Controls.Add(this.lbl_grade3);
+            this.Controls.Add(this.tb_grade2);
+            this.Controls.Add(this.lbl_grade2);
             this.Controls.Add(this.grade1tb);
-            this.Controls.Add(this.grade1lbl);
-            this.Controls.Add(this.phonetb);
-            this.Controls.Add(this.phonelbl);
-            this.Controls.Add(this.emailtb);
-            this.Controls.Add(this.emaillbl);
-            this.Controls.Add(this.lastnametb);
-            this.Controls.Add(this.lastnamelbl);
-            this.Controls.Add(this.firstnametb);
-            this.Controls.Add(this.firstnamelbl);
-            this.Controls.Add(this.IDtb);
-            this.Controls.Add(this.idlbl);
+            this.Controls.Add(this.lbl_grade1);
+            this.Controls.Add(this.tb_phone);
+            this.Controls.Add(this.lbl_phone);
+            this.Controls.Add(this.tb_email);
+            this.Controls.Add(this.lbl_email);
+            this.Controls.Add(this.tb_lastname);
+            this.Controls.Add(this.lbl_lastname);
+            this.Controls.Add(this.tb_firstname);
+            this.Controls.Add(this.lbl_firstname);
+            this.Controls.Add(this.tb_id);
+            this.Controls.Add(this.lbl_id);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StudentForm";
             this.Text = "Form1";
@@ -323,29 +323,29 @@
 
         #endregion
 
-        private System.Windows.Forms.Label idlbl;
-        private System.Windows.Forms.TextBox IDtb;
-        private System.Windows.Forms.TextBox firstnametb;
-        private System.Windows.Forms.Label firstnamelbl;
-        private System.Windows.Forms.TextBox lastnametb;
-        private System.Windows.Forms.Label lastnamelbl;
-        private System.Windows.Forms.TextBox emailtb;
-        private System.Windows.Forms.Label emaillbl;
-        private System.Windows.Forms.TextBox phonetb;
-        private System.Windows.Forms.Label phonelbl;
-        private System.Windows.Forms.TextBox grade5tb;
-        private System.Windows.Forms.Label grade5lbl;
-        private System.Windows.Forms.TextBox grade4tb;
-        private System.Windows.Forms.Label grade4lbl;
-        private System.Windows.Forms.TextBox grade3tb;
-        private System.Windows.Forms.Label grade3lbl;
-        private System.Windows.Forms.TextBox grade2tb;
-        private System.Windows.Forms.Label grade2lbl;
+        private System.Windows.Forms.Label lbl_id;
+        private System.Windows.Forms.TextBox tb_id;
+        private System.Windows.Forms.TextBox tb_firstname;
+        private System.Windows.Forms.Label lbl_firstname;
+        private System.Windows.Forms.TextBox tb_lastname;
+        private System.Windows.Forms.Label lbl_lastname;
+        private System.Windows.Forms.TextBox tb_email;
+        private System.Windows.Forms.Label lbl_email;
+        private System.Windows.Forms.TextBox tb_phone;
+        private System.Windows.Forms.Label lbl_phone;
+        private System.Windows.Forms.TextBox tb_grade5;
+        private System.Windows.Forms.Label lbl_grade5;
+        private System.Windows.Forms.TextBox tb_grade4;
+        private System.Windows.Forms.Label lbl_grade4;
+        private System.Windows.Forms.TextBox tb_grade3;
+        private System.Windows.Forms.Label lbl_grade3;
+        private System.Windows.Forms.TextBox tb_grade2;
+        private System.Windows.Forms.Label lbl_grade2;
         private System.Windows.Forms.TextBox grade1tb;
-        private System.Windows.Forms.Label grade1lbl;
-        private System.Windows.Forms.Button addStudentBtn;
-        private System.Windows.Forms.Button add10kBtn;
-        private System.Windows.Forms.Button reportBtn;
+        private System.Windows.Forms.Label lbl_grade1;
+        private System.Windows.Forms.Button btn_addStudent;
+        private System.Windows.Forms.Button btn_add10k;
+        private System.Windows.Forms.Button btn_report;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

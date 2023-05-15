@@ -22,17 +22,17 @@ namespace TDD
 
         }
 
-        private void addStudentBtn_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void add10kBtn_Click(object sender, EventArgs e)
+        private void btn_addStudent_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void reportBtn_Click(object sender, EventArgs e)
+        private void btn_add10k_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_report_Click(object sender, EventArgs e)
         {
 
         }
