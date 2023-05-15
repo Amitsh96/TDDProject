@@ -73,6 +73,7 @@ namespace TDD
 
             for (int i = 0; i < studentList.Count; i++) {
                 dt.Rows.Add(studentList[i].ID, studentList[i].FirstName, studentList[i].LastName, studentList[i].Average);
+          
             }
 
             rp.dataGridView1.DataSource = dt;
