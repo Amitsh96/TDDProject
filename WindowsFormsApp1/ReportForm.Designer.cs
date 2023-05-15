@@ -47,7 +47,9 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.Info;
             this.dataGridView1.Location = new System.Drawing.Point(24, 87);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(688, 354);
@@ -56,11 +58,12 @@
             // lbl_runTime
             // 
             this.lbl_runTime.AutoSize = true;
-            this.lbl_runTime.Location = new System.Drawing.Point(316, 66);
+            this.lbl_runTime.Location = new System.Drawing.Point(285, 61);
             this.lbl_runTime.Name = "lbl_runTime";
             this.lbl_runTime.Size = new System.Drawing.Size(79, 13);
             this.lbl_runTime.TabIndex = 2;
             this.lbl_runTime.Text = "Total Runtime: ";
+            this.lbl_runTime.Click += new System.EventHandler(this.lbl_runTime_Click);
             // 
             // ReportForm
             // 
@@ -87,6 +90,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Label lbl_runTime;
+        public System.Windows.Forms.Label lbl_runTime;
     }
 }

@@ -17,6 +17,15 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-      
+        public Label RuntimeLabel // Add this property
+        {
+            get { return lbl_runTime; }
+            set { lbl_runTime = value; }
+        }
+
+        private void lbl_runTime_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

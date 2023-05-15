@@ -18,7 +18,9 @@ namespace TDD
     {
         public List<Student> studentList = new List<Student>();
         Random rand = new Random();
-   
+        public int startTime;
+        public int TotalRunTime { get; set; }
+
 
         public StudentForm()
         {
@@ -134,7 +136,7 @@ namespace TDD
 
                 Student random_student = new Student(Id, firstName, lastName, Email, phoneNumber, grade1, grade2, grade3, grade4, grade5);
                 studentList.Add(random_student);
-             
+
             }
 
         }
@@ -242,23 +244,44 @@ namespace TDD
 
             // Student form will open report form when clicked 
             ReportForm rp = new ReportForm();
-           
+
 
             DataTable dt = new DataTable();
-            dt.Columns.Add("ID",typeof(string));
+            dt.Columns.Add("ID", typeof(string));
             dt.Columns.Add("First Name", typeof(string));
-            dt.Columns.Add("Last Name",typeof(string));
-            dt.Columns.Add("GPA",typeof(float));
+            dt.Columns.Add("Last Name", typeof(string));
+            dt.Columns.Add("GPA", typeof(float));
 
+            // starting the timer to calculate merging time
+            startTime = DateTime.Now.Millisecond;
             MergeSort(studentList, 0, studentList.Count - 1);
 
-            for (int i = 0; i < studentList.Count; i++) {
+
+            for (int i = 0; i < studentList.Count; i++)
+            {
                 dt.Rows.Add(studentList[i].ID, studentList[i].FirstName, studentList[i].LastName, studentList[i].Average);
             }
 
             rp.dataGridView1.DataSource = dt;
-            rp.ShowDialog();
+           
 
+            // Starting the timer to calculate merging time
+            startTime = Environment.TickCount;
+
+            // Sorting the student list
+            MergeSort(studentList, 0, studentList.Count - 1);
+
+            // ...
+
+            // Calculate the end time after sorting
+            int endTime = Environment.TickCount;
+            int totalTime = endTime - startTime;
+
+            // Update the label in the ReportForm
+            rp.RuntimeLabel.Text = "Total run time is: " + totalTime.ToString() + " milliseconds";
+
+            // Show the ReportForm
+            rp.ShowDialog();
 
 
         }
