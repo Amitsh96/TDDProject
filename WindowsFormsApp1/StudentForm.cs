@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace TDD
 {
@@ -30,7 +31,9 @@ namespace TDD
         }
         private void btn_report_Click(object sender, EventArgs e)
         {
-
+            // Student form will open report form when clicked
+            ReportForm rp = new ReportForm();
+            rp.ShowDialog();
         }
     }
 }
