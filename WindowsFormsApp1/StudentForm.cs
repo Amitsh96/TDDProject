@@ -123,7 +123,7 @@ namespace TDD
                 string Id = randomID.ToString();
                 string Email = randEmail;
                 string phoneNumber = randomphone;
-                int notGradeOne = rand.Next(1, 2);
+                int notGradeOne = rand.Next(0, 2);
                 int noGradeTwo = rand.Next(0, 2);
                 int noGradeThree = rand.Next(0, 2);
                 int noGradeFour = rand.Next(0, 2);
@@ -162,36 +162,42 @@ namespace TDD
             //}
             //BubbleSort(studentList);
 
+            List<Student> MergeSort(List<Student> studentList, int left, int right)
+            {
+                if (left < right)
+                {
+                    int middle = (left + right) / 2;
+                    MergeSort(studentList, left, middle);
+                    MergeSort(studentList, middle + 1, right);
+                    Merge(studentList, left, middle, right);
+                }
+                return studentList;
+            }
 
             void Merge(List<Student> studentList, int left, int middle, int right)
             {
                 int leftArrayLength = middle - left + 1;
                 int rightArrayLength = right - middle;
-
-                // Create temporary arrays to hold the left and right halves
                 double[] leftArray = new double[leftArrayLength];
                 double[] rightArray = new double[rightArrayLength];
 
-                // Copy the left half of the array to the left temporary array
                 for (int i = 0; i < leftArrayLength; i++)
                 {
                     leftArray[i] = studentList[left + i].Average;
                 }
 
-                // Copy the right half of the array to the right temporary array
                 for (int i = 0; i < rightArrayLength; i++)
                 {
                     rightArray[i] = studentList[middle + 1 + i].Average;
                 }
 
-                // Merge the two temporary arrays into the original array
                 int j = 0;
                 int k = 0;
                 int l = left;
 
                 while (j < leftArrayLength && k < rightArrayLength)
                 {
-                    if (leftArray[j] >= rightArray[k]) // Change the comparison from <= to >=
+                    if (!double.IsNaN(leftArray[j]) && (double.IsNaN(rightArray[k]) || leftArray[j] >= rightArray[k]))
                     {
                         studentList[l].Average = (float)leftArray[j];
                         j++;
@@ -204,7 +210,6 @@ namespace TDD
                     l++;
                 }
 
-                // Copy the remaining elements of the left temporary array to the original array
                 while (j < leftArrayLength)
                 {
                     studentList[l].Average = (float)leftArray[j];
@@ -212,7 +217,6 @@ namespace TDD
                     l++;
                 }
 
-                // Copy the remaining elements of the right temporary array to the original array
                 while (k < rightArrayLength)
                 {
                     studentList[l].Average = (float)rightArray[k];
@@ -220,27 +224,6 @@ namespace TDD
                     l++;
                 }
             }
-
-
-            List<Student> MergeSort(List<Student> studentList, int left, int right)
-            {
-                if (left < right)
-                {
-                    // Calculate the middle index
-                    int middle = (left + right) / 2;
-
-                    // Sort the left half of the array
-                    MergeSort(studentList, left, middle);
-
-                    // Sort the right half of the array
-                    MergeSort(studentList, middle + 1, right);
-
-                    // Merge the two halves
-                    Merge(studentList, left, middle, right);
-                }
-                return studentList;
-            }
-
 
             // Student form will open report form when clicked 
             ReportForm rp = new ReportForm();
